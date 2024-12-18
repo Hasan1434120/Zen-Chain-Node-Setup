@@ -10,8 +10,12 @@ https://www.zenchain.io/waitlist adresini ziyaret edin
 https://faucet.zenchain.io/
 
 # Kurulum:
-  Sistem Paketlerini Güncelle:
+  Sistem Güncelle:
 
   ` sudo su`
+
   ` apt update`
+
   ` sudo apt install -y curl wget tar jq git`
+
+  
