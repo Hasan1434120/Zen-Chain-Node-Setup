@@ -68,16 +68,18 @@ docker run \
 
 ##### OKX Wallet'ta, Zenchain Testnet ağına ayarlandığından emin olun. Bu ayrıntılarla bir işlem başlatın:
 
--To :0x0000000000000000000000000000000000000802
+>-To :0x0000000000000000000000000000000000000802
 
--Amount :0
+>-Amount :0
 
 
--Input Data: :
+>-Input Data: :
 
-```0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + otorum anahtarını yazın başında0x olmadan```
+```
+0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + oturum anahtarını yazın başında 0x olmadan yazın
+```
 
-### 7-Docker Konteynerini Durdurun ve Kaldırın:
+### 7-Docker Durdurun ve Kaldırın:
 
 ```docker rm -f zenchain```
 
