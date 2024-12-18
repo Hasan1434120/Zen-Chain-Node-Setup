@@ -29,7 +29,7 @@ https://faucet.zenchain.io/
 
   4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
-  ```
+  `
 docker run \
     -d \
     --name zenchain \
