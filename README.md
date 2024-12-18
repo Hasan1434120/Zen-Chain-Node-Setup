@@ -65,7 +65,7 @@ https://faucet.zenchain.io/
 
 >-Blok Gezgini : https://zentrace.io/
 
-> ##### OKX Wallet'ta, Zenchain Testnet ağına ayarlandığından emin olun. Bu ayrıntılarla bir işlem başlatın:
+> ##### OKX Wallet kullanın, Zenchain Testnet ağına ayarlandığından emin olun. Inputa dikkat edin. sonuna eklenecek olanın başında 0x yok:
 
 >-To :0x0000000000000000000000000000000000000802
 
