@@ -29,7 +29,7 @@ https://faucet.zenchain.io/
 
   4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
-  `
+  ```
 docker run \
     -d \
     --name zenchain \
@@ -44,6 +44,10 @@ docker run \
     --name=YOURVALIDATORNAME \
     --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
     --chain=zenchain_testnet
-`
+```
 
-    5-
+    5-Oturum anahtarını almak için bu komutu çalıştırın:
+
+    `curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9944`
+
+    
