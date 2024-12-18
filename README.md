@@ -10,7 +10,7 @@ https://www.zenchain.io/waitlist adresini ziyaret edin
 https://faucet.zenchain.io/
 
 # Kurulum:
- 1- Sistem Güncelle:
+### 1- Sistem Güncelle:
 
   ``` sudo su```
 
@@ -18,16 +18,16 @@ https://faucet.zenchain.io/
 
   ``` sudo apt install -y curl wget tar jq git```
 
-  2- Docker'ı yükleyin (eğer yüklü değilse):
+ ### 2- Docker'ı yükleyin (eğer yüklü değilse):
 
   ```apt install docker.io -y```
 
-  3- Klasör Oluşturun ve İzinleri Ayarlayın:
+###  3- Klasör Oluşturun ve İzinleri Ayarlayın:
 
   ```mkdir -p "$HOME/chain-data"```
   ```chmod -R 777 "$HOME/chain-data"```
 
-  4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
+###  4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
   ```
 docker run \
@@ -46,13 +46,13 @@ docker run \
     --chain=zenchain_testnet
 ```
 
-    5-Oturum anahtarını almak için bu komutu çalıştırın:
+ ###   5-Oturum anahtarını almak için bu komutu çalıştırın:
 
     ```curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9944```
 
    
     
-    6-Zenchain RPC'yi OKX cüzdanınıza ekleyin:
+  ###  6-Zenchain RPC'yi OKX cüzdanınıza ekleyin:
 >-Ağ adı :Zenchain Testnet
 
 >-RPC URL'si :https://zenchain-testnet.api.onfinality.io/public
@@ -74,13 +74,13 @@ docker run \
 
 ```0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + otorum anahtarını yazın başında0x olmadan```
 
-7-Docker Konteynerini Durdurun ve Kaldırın:
+### 7-Docker Konteynerini Durdurun ve Kaldırın:
 
 ```docker rm -f zenchain```
 
-8-Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
+### 8-Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
 
-###YOURVALIDATORNAME kendiniz değiştirin 
+### YOURVALIDATORNAME kendiniz değiştirin 
 
 ```
 docker run \
@@ -97,7 +97,7 @@ docker run \
     --chain=zenchain_testnet
 ```
 
-9-Docker Günlüklerini Kontrol Edin 
+### 9-Docker Günlüklerini Kontrol Edin 
 
 ```
 docker logs -f zenchain
