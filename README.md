@@ -78,7 +78,7 @@ docker run \
 
 ```docker rm -f zenchain```
 
-### 8-Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
+Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
 
 ### YOURVALIDATORNAME kendiniz değiştirin 
 
@@ -97,8 +97,17 @@ docker run \
     --chain=zenchain_testnet
 ```
 
-### 9-Docker Günlüklerini Kontrol Edin 
+### 8-Docker Günlüklerini Kontrol Edin 
 
 ```
 docker logs -f zenchain
 ```
+
+### 9-Şimdi Doğrulayıcı Panosuna gidin: https://node.zenchain.io/#/staking
+
+Cick Stake > Click To Your Account > Click Become a Validator > Input any amount you want to stake > Click Start Staking and Done!
+
+
+### 10- Düğüm Durumunu Doğrula:
+
+Yaklaşık 1-2 saat sonra staking panosu üzerinden node’unuzun Zenchain doğrulayıcı listesinde görünür olup olmadığını kontrol edin.
