@@ -72,4 +72,33 @@ docker run \
 
 -Input Data: :
 
-0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + session key without 0x go to your VPS and copy the session key
+```0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + otorum anahtarını yazın başında0x olmadan```
+
+7-Docker Konteynerini Durdurun ve Kaldırın:
+
+```docker rm -f zenchain```
+
+8-Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
+
+###YOURVALIDATORNAME kendiniz değiştirin 
+
+```
+docker run \
+    -d \
+    --name zenchain \
+    -p 9944:9944 \
+    -v "$HOME/chain-data:/chain-data" \
+    ghcr.io/zenchain-protocol/zenchain-testnet:latest \
+    ./usr/bin/zenchain-node \
+    --base-path=/chain-data \
+    --validator \
+    --name="YOURVALIDATORNAME" \
+    --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
+    --chain=zenchain_testnet
+```
+
+9-Docker Günlüklerini Kontrol Edin 
+
+```
+docker logs -f zenchain
+```
