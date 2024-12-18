@@ -30,7 +30,7 @@ https://faucet.zenchain.io/
 
 ###  4-Düğümü Çalıştırın : 
 
-##### (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
+##### >(YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
   ```
 docker run \
@@ -68,7 +68,7 @@ docker run \
 
 >-Blok Gezgini : https://zentrace.io/
 
-##### OKX Wallet'ta, Zenchain Testnet ağına ayarlandığından emin olun. Bu ayrıntılarla bir işlem başlatın:
+##### >OKX Wallet'ta, Zenchain Testnet ağına ayarlandığından emin olun. Bu ayrıntılarla bir işlem başlatın:
 
 >-To :0x0000000000000000000000000000000000000802
 
@@ -87,7 +87,7 @@ docker run \
 
 Artık oturum anahtarı bağlandığına göre, düğümü son kurulum komutuyla çalıştırın.
 
-##### YOURVALIDATORNAME kendiniz değiştirin 
+##### >YOURVALIDATORNAME kendiniz değiştirin 
 
 ```
 docker run \
