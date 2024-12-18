@@ -20,7 +20,9 @@ https://faucet.zenchain.io/
 
  ### 2- Docker'ı yükleyin (eğer yüklü değilse):
 
-  ```apt install docker.io -y```
+  ```apt install docker.io -y
+  docker run
+```
 
 ###  3- Klasör Oluşturun ve İzinleri Ayarlayın:
 
