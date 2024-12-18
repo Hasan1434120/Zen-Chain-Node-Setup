@@ -9,7 +9,7 @@ https://www.zenchain.io/waitlist adresini ziyaret edin
 2-Bekleme listesine kaydolduktan sonra musluğu buradan talep edin: 
 https://faucet.zenchain.io/
 
-Kurulum:
+# Kurulum:
   Sistem Paketlerini Güncelle:
 
   sudo su
