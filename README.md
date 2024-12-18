@@ -34,7 +34,8 @@ https://faucet.zenchain.io/
 
 > ##### (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
-  ```docker run \
+  ```
+    docker run \
     -d \
     --name zenchain \
     -p 9944:9944 \
