@@ -115,7 +115,9 @@ Cick Stake > Click To Your Account > Click Become a Validator > Input any amount
 
 <img width="351" alt="zen2" src="https://github.com/user-attachments/assets/44cb27b5-e230-4294-8a0f-a9fa134e6780" />
 
+
 <img width="413" alt="zen3" src="https://github.com/user-attachments/assets/67e03ada-0c0a-43cc-9e7d-866a4bc2110b" />
+
 
 <img width="422" alt="zen4" src="https://github.com/user-attachments/assets/18cfe282-867a-4fa8-8cf7-26a5e66a3f5d" />
 
