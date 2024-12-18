@@ -29,7 +29,8 @@ https://faucet.zenchain.io/
 
   4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
-  ```docker run \
+  ```
+docker run \
     -d \
     --name zenchain \
     -p 9944:9944 \
@@ -42,6 +43,7 @@ https://faucet.zenchain.io/
     --unsafe-rpc-external \
     --name=YOURVALIDATORNAME \
     --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
-    --chain=zenchain_testnet```
+    --chain=zenchain_testnet
+```
 
     5-
