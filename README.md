@@ -50,4 +50,24 @@ docker run \
 
     `curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9944`
 
-    
+    6-Zenchain RPC'yi OKX cüzdanınıza ekleyin:
+-Ağ adı :Zenchain Testnet
+
+-RPC URL'si :https://zenchain-testnet.api.onfinality.io/public
+
+-Zincir Kimliği :8408
+
+-SEMBOL :ZCX
+
+-Blok Gezgini :https://zentrace.io/
+
+###OKX Wallet'ta, Zenchain Testnet ağına ayarlandığından emin olun. Bu ayrıntılarla bir işlem başlatın:
+
+-To :0x0000000000000000000000000000000000000802
+
+-Amount :0
+
+
+-Input Data: :
+
+0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + session key without 0x go to your VPS and copy the session key
