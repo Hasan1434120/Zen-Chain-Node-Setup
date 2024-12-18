@@ -30,7 +30,7 @@ https://faucet.zenchain.io/
 
 ###  4-Düğümü Çalıştırın : 
 
-##### > (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
+> ##### (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
   ```
 docker run \
