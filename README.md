@@ -77,6 +77,8 @@ https://faucet.zenchain.io/
 ```
 0xf1ec919c00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000060 + oturum anahtarını yazın başında 0x olmadan yazın
 ```
+<img width="283" alt="zen1" src="https://github.com/user-attachments/assets/ce69b5e7-5592-4fa4-875f-9ff5d2e71c28" />
+
 
 ### 7-Docker Durdurun ve Kaldırın:
 
