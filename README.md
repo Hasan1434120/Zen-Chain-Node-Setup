@@ -12,6 +12,6 @@ https://faucet.zenchain.io/
 # Kurulum:
   Sistem Paketlerini Güncelle:
 
-  ` sudo su
-  ` apt update
-  ` sudo apt install -y curl wget tar jq git
+  ` sudo su`
+  ` apt update`
+  ` sudo apt install -y curl wget tar jq git`
