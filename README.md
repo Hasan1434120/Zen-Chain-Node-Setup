@@ -44,6 +44,6 @@ docker run \
     --name=YOURVALIDATORNAME \
     --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
     --chain=zenchain_testnet
-```
+`
 
     5-
