@@ -124,3 +124,5 @@ Cick Stake > Click To Your Account > Click Become a Validator > Input any amount
 ### 10- Düğüm Durumunu Doğrula:
 
 Yaklaşık 1-2 saat sonra staking panosu üzerinden node’unuzun Zenchain doğrulayıcı listesinde görünür olup olmadığını kontrol edin.
+
+# Beğenmeyi unutmayın lütfen
