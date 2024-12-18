@@ -28,7 +28,9 @@ https://faucet.zenchain.io/
   
   ```chmod -R 777 "$HOME/chain-data"```
 
-###  4-Düğümü Çalıştırın : (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
+###  4-Düğümü Çalıştırın : 
+
+##### (YOURVALIDATORNAME ifadesini istediğiniz ifadeyle değiştirin )
 
   ```
 docker run \
