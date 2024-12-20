@@ -49,6 +49,7 @@ apt install docker.io -y```
     --unsafe-rpc-external \
     --name=YOURVALIDATORNAME \
     --bootnodes=/dns4/node-7274523776613056512-0.p2p.onfinality.io/tcp/24453/ws/p2p/12D3KooWDLh2E27VUrXRBvCP6YMz7PzZCVK3Kpwv42Sj1MHJJvN6
+    --chain=zenchain_testnet
 ```
 
  ###   5-Oturum anahtarını almak için bu komutu çalıştırın:
@@ -103,6 +104,7 @@ docker run \
     --validator \
     --name="YOURVALIDATORNAME" \
     --bootnodes=/dns4/node-7274523776613056512-0.p2p.onfinality.io/tcp/24453/ws/p2p/12D3KooWDLh2E27VUrXRBvCP6YMz7PzZCVK3Kpwv42Sj1MHJJvN6
+    --chain=zenchain_testnet
 ```
 
 ### 8-Docker Günlüklerini Kontrol Edin 
