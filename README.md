@@ -41,15 +41,14 @@ apt install docker.io -y```
     --name zenchain \
     -p 9944:9944 \
     -v "$HOME/chain-data:/chain-data" \
-    ghcr.io/zenchain-protocol/zenchain-testnet:latest \
+    ghcr.io/zenchain-protocol/zenchain-testnet:v1.1.2 \
     ./usr/bin/zenchain-node \
     --base-path=/chain-data \
     --rpc-cors=all \
     --rpc-methods=unsafe \
     --unsafe-rpc-external \
     --name=YOURVALIDATORNAME \
-    --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
-    --chain=zenchain_testnet
+    --bootnodes=/dns4/node-7274523776613056512-0.p2p.onfinality.io/tcp/24453/ws/p2p/12D3KooWDLh2E27VUrXRBvCP6YMz7PzZCVK3Kpwv42Sj1MHJJvN6
 ```
 
  ###   5-Oturum anahtarını almak için bu komutu çalıştırın:
@@ -98,13 +97,12 @@ docker run \
     --name zenchain \
     -p 9944:9944 \
     -v "$HOME/chain-data:/chain-data" \
-    ghcr.io/zenchain-protocol/zenchain-testnet:latest \
+    ghcr.io/zenchain-protocol/zenchain-testnet:v1.1.2 \
     ./usr/bin/zenchain-node \
     --base-path=/chain-data \
     --validator \
     --name="YOURVALIDATORNAME" \
-    --bootnodes=/dns4/node-7242611732906999808-0.p2p.onfinality.io/tcp/26266/p2p/12D3KooWLAH3GejHmmchsvJpwDYkvacrBeAQbJrip5oZSymx5yrE \
-    --chain=zenchain_testnet
+    --bootnodes=/dns4/node-7274523776613056512-0.p2p.onfinality.io/tcp/24453/ws/p2p/12D3KooWDLh2E27VUrXRBvCP6YMz7PzZCVK3Kpwv42Sj1MHJJvN6
 ```
 
 ### 8-Docker Günlüklerini Kontrol Edin 
